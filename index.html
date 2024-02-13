@@ -3,24 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Date me</title>
+    <title>Wanna date me?</title>
+    <link rel="shortcut icon" href="img/seta.png" type="image/x-icon">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="body">
     <main>
         <section class="principal">
-        <img src="img/casamento.png" alt="Imagem de um coração e duas alianças" class="alianca" id="alianca">
-            <p class="pedido">Quer namorar comigo?</p>
-            <div class="botoes">
-                <nav class="aceite">
+            <img src="img/casamento.png" alt="Imagem de um coração e duas alianças" id="alianca">
+            <p id="pedido">Quer namorar comigo?</p>
+            <div id="botoes">
+                <nav class="aceite__botao">
                     <a href="#" class="aceite">
-                        <button class="botao botao_sim" onclick="aceitar()">
+                        <button class="botao botao__sim" onclick="aceitar()">
                             Sim
                         </button>
                     </a>
                 </nav>
-                <button class="botao posicao__botao" id="noButton" onmouseover="moverBotao()">
+                <button class="botao" id="noButton" onmouseover="moverBotao()">
                     Não
                 </button>
             </div>

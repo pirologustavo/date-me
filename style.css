@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFF6E9;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#alianca{
+    width: 48px;
+}
+
+#botoes{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding-top: 12px;
+}
+
+.botao{
+    font-size: 12px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: #70c9df;
+    color: black;
+    border-radius: 4px;
+}
